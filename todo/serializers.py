@@ -7,6 +7,8 @@ class GroupSerializer(serializers.ModelSerializer):
         model = Group
         fields = '__all__'
         
+    
+        
 class TaskSerializer(serializers.ModelSerializer):
     user = serializers.StringRelatedField()
     user_id = serializers.IntegerField()
@@ -15,3 +17,8 @@ class TaskSerializer(serializers.ModelSerializer):
     class Meta:
         model = Task
         fields = ('id', 'user', 'user_id', 'task_group', 'task_group_id', 'title', 'description', 'created_date', 'due_date', 'priority', 'is_completed')
+        
+class UserSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = User
+        fields = ('id', 'username')
