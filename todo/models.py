@@ -1,6 +1,3 @@
-from sre_constants import CATEGORY
-from turtle import ondrag
-from django.conf import settings
 from django.db import models
 from django.contrib.auth.models import User
 from django.utils import timezone
