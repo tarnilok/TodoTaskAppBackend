@@ -26,7 +26,6 @@
 
 requirements.txt<br>
 ![](requirements.png)
-<div>
 <code>
   <h3>* DataBase ⇨ Sqlite3</h3>
   <h3>* CustomTokenSerializer</h3>
@@ -42,4 +41,4 @@ requirements.txt<br>
   <h3>* Two Apps ⇒ users and todo </h3>
   <h3>* env, gitignore files</h3>
   <h3>* corsheaders</h3>
-  </code></div>
+  </code>
