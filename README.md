@@ -24,8 +24,8 @@
 
 ## <div align="center">`<BackEnd Side>`</div>
 
-<code>requirements.txt
-![](requirements.png)</code>
+<code>requirements.txt</code><br>
+![](requirements.png)
 <code>
   <h3>* DataBase ⇨ Sqlite3</h3>
   <h3>* CustomTokenSerializer</h3>
