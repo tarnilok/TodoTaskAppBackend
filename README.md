@@ -24,7 +24,7 @@
 
 ## <div align="center">`<BackEnd Side>`</div>
 
-<code>requirements.txt</code><br>
+requirements.txt<br>
 ![](requirements.png)
 <code>
   <h3>* DataBase ⇨ Sqlite3</h3>
