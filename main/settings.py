@@ -137,7 +137,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # STATIC_URL = 'static/'
 # STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-STATIC_URL = '/staticfiles/'
+STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     ("js", os.path.join(STATIC_ROOT, 'js')),
     ("css", os.path.join(STATIC_ROOT, 'css')),
